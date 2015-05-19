@@ -47,6 +47,12 @@ describe("app test", function() {
             var displayStyle = helper.getComputedStyle('#deviceready .received', 'display');
             expect(displayStyle).toEqual('block');
         });
+        afterEach(function() {
+            var el = document.getElementById('stage');
+            if (el !== null) {
+              el.innerHTML = '';
+            }
+        });
     });
 
     describe('launch camera', function() {
