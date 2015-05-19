@@ -8,8 +8,6 @@ npm-debug.log
 # iOS
 *.xcuserdatad
 
-#platforms
-platforms/*
 
 # res
 resources/signing
