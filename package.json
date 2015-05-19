@@ -10,6 +10,10 @@
   "author": "Satoshi Watanabe",
   "license": "MIT",
   "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-csslint": "^0.1.5",
+    "gulp-htmlhint": "^0.1.1",
+    "gulp-jshint": "^1.10.0",
     "jasmine-core": "^2.3.4",
     "karma": "^0.12.31",
     "karma-coverage": "^0.3.1",
